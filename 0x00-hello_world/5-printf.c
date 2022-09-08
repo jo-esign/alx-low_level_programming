@@ -1,6 +1,6 @@
 #include <studio.h>
 /**
- * main - prints "with proper grammer, but the outcome is a piece of art,"
+ * main - Prints "with proper grammer, but the outcome is a piece of art,"
  *
  * Return: 0
  */
