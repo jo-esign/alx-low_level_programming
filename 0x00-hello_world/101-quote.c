@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include <unistd.h>
-#include <string.h>
 
 /**
  * main - Prints sizes of various types on the computer compiled ans run on
