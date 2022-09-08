@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 /**
  * main - Prints sizes of various types on the computer compiled and run on
  *
@@ -12,4 +12,4 @@ int main(void)
 	printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
 	printf("Size of a float : %d byte(s)\n", sizeof(float));
 	return (0);
-} 	
+}
