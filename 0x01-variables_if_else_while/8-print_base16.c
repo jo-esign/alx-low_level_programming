@@ -11,7 +11,7 @@ int main(void)
 	char letter;
 
 	for (digit = 0; digit <= 9; digit++)
-		putchar(digit + 0);
+		putchar(digit + '0');
 	for (letter = 'a'; letter <= 'f'; letter++)
 		putchar(letter);
 	putchar('\n');
