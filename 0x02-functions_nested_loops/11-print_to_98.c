@@ -1,6 +1,5 @@
 #include "main.h"
-#include <studio.h>
-
+#include <stdio.h>
 /**
  * print_to_98 - function that prints all natural numbers from m to 98
  * @n: integer argument
