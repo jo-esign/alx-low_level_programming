@@ -4,8 +4,9 @@
 /**
  * main - print the first 50 fibonacci numbers
  *
- * Return: nothing.
+ * Return: Nothing.
  */
+
 int main(void)
 {
 	int count;
@@ -18,8 +19,8 @@ int main(void)
 	{
 		z = x + y;
 		x = y;
-		y = x;
-		printf("%lu, ", z);
+		y = z;
+	printf("%lu, ", z);
 	}
 
 	printf("%lu\n", z + x);
