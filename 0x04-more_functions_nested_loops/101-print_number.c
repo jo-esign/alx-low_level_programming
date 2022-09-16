@@ -22,8 +22,8 @@ void print_number(int n)
 
 		while (t_beg <= positive)
 			t_beg *= 10;
-			tens = t_beg / 10;
-
+		tens = t_beg / 10;
+		
 		while (tens >= 1)
 		{
 			digit = positive / tens;
@@ -33,3 +33,4 @@ void print_number(int n)
 		}
 	}
 }
+
