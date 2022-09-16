@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints FizzBuzz
- *
+ * main - prints 1 to 100
+ * multiples of 3 prints Fizz
+ * multiples of 5 prints Buzz
+ * multiples of 3 and 5 prints FizzBuzz
  * Return: 0
  */
 
@@ -20,6 +22,9 @@ int main(void)
 			printf("FizzBuzz");
 		else
 			printf("%d", i);
+
+		if (i < 100)
+			printf(" ");
 	}
 
 	printf("\n");
