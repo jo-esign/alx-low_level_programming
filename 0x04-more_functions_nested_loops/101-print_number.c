@@ -31,7 +31,5 @@ void print_number(int n)
 			positive = (positive - (tens * digit));
 			tens /= 10;
 		}
-
 	}
-
 }
