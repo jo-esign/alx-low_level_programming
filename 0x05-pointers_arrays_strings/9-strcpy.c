@@ -2,13 +2,13 @@
 #include "main.h"
 
 /**
- * *strcpy - copies string
+ * *_strcpy - copies string
  * @src: string pointer
  * @dest: buffer pointer
  * Return: dest pointer
  */
 
-char *strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
 
