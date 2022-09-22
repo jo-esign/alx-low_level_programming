@@ -35,7 +35,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		else
 			add = 0;
 		if (op > 0)
-			*(r + bg) = (op % 10) + 48;
+		*(r + bg) = (op % 10) + 48;
 		else
 			*(r + bg) = '0';
 		if (c1 > 0)
@@ -48,7 +48,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 			dr2 = 0;
 		bg--, size_r--;
 	}
-	if (*(r) == 0)
+	if (*(r) == '0')
 		return (r + 1);
 	else
 		return (r);
