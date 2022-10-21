@@ -2,6 +2,9 @@
 
 void init(void) __attribute__((constructor));
 
+/**
+ * init - execute before main
+ */
 void init(void)
 {
 	printf("%s\n%s\n",
