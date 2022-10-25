@@ -4,14 +4,14 @@
 #include "lists.h"
 
 /**
- * listint_len- returns the number of elements on a linked list
+ * listint_len - returns the number of elements on a linked list
  * @h: head of the list
  * return: number of elements
  */
 
 size_t listint_len(const listint_t *h)
 {
-	int numnode = 0;
+	size_t numnode = 0;
 
 	while (h != NULL)
 	{
