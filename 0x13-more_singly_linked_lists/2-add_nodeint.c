@@ -3,23 +3,26 @@
 #include <stdio.h>
 #include "lists.h"
 
-
 /**
- * print_listint - prints all the elements of a linked list
- * @h: head of the list
- *
- * Return: the number of nodes
+ * add_nodeint - Adds a new node at the beginning
+ * of a linked list.
+ * @head: head of the linked list
+ * @n: n element
+ * Return: Address of the head.
  */
-size_t print_listint(const listint_t *h)
-{
-	const listint_t *cursor = h;
-	size_t count = 0;
 
-	while (cursor != NULL)
-	{
-		printf("%d\n", cursor->n);
-		count += 1;
-		cursor = cursor->next;
-	}
-	return (count);
+listint_t *add_nodeint(listint_t **head, const int n)
+{
+	listint_t *new;
+
+	new = malloc(sizeof(listint_t));
+
+	if (new == NULL)
+		return (NULL);
+
+	new->n = n;
+	new->next = *head;
+	*head = new;
+
+	return (*head);
 }
